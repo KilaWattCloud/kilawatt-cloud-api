@@ -1,5 +1,8 @@
 ⁠# Kilawatt Cloud API (`kilawatt-cloud-api`)
 
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/KilaWattCloud/kilawatt-cloud-api)](https://github.com/KilaWattCloud/kilawatt-cloud-api/releases)
+
 Official API specification, OpenAPI manifests, and integration templates for **Kilawatt Cloud** (`https://api.kilawattcloud.dev`). 
 
 Kilawatt Cloud provides automated, zero-friction, balance-gated GPU orchestration for high-performance AI inference, fine-tuning, and autonomous agent workflows.
@@ -20,3 +23,5 @@ curl -X POST "https://api.kilawattcloud.dev/v1/clusters/deploy" \
 "gpu_count": 8,
 "max_price_per_hour": 3.00
   }'
+
+```
